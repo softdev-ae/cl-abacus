@@ -3,6 +3,9 @@
 (in-package :cl-abacus)
 
 
+;(setf cl-json:*json-symbols-package* nil)
+;(setf cl-json:*json-identifier-name-to-lisp* #'identity)
+
 (define-condition event-conflict (error)
   ())
 
